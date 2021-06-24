@@ -1,0 +1,9 @@
+#img-bg {
+    background-image: url("../../assets/img/photo-1546471180-335a013cb87b.jpg");
+
+    min-height: 939px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -5,3 +5,8 @@
 a{
     cursor: pointer;
 }
+
+.nav-bg {
+
+    background-color: rgb(223, 95, 133);
+}

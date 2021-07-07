@@ -24,6 +24,10 @@ export class AuthService {
     
   }
 
+  getByIdUser (id: number): Observable <Usuario>{
+    return this.http.get<Usuario>(`https://backendblogpessoal.herokuapp.com/usuarios/${id}`)
+  }
+
   logado(){
     let ok: boolean = false
 

@@ -28,6 +28,9 @@ export class PostagemEditComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+
+    window.scroll (0,0)
+
     if (environment.token == ''){
       alert ('Sua seção expirou. Faça login novamente!')
       this.router.navigate(['/logar'])
